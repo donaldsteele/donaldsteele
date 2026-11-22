@@ -23,6 +23,11 @@ account, a local web UI, and an MCP server so an AI agent can drive it.
   itself and blocks abusive upload and input floods before they exhaust memory, including on
   end-of-life PHP versions that won't get the official fix. Written in Rust and C.
   ([site](https://howdah.org))
+- **[overhear](https://github.com/donaldsteele/overhear)**: a passive listener for a local
+  network. It never transmits. It decodes what devices announce to everyone (ARP, DHCP, IPv6
+  neighbour discovery, mDNS, LLDP and more), keeps a table of the devices it hears, and warns
+  about a second DHCP server, an unexpected router or two devices claiming one address. Written
+  in Rust. ([site](https://donaldsteele.github.io/overhear/))
 
 #### Desktop apps
 
