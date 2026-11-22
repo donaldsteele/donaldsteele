@@ -14,9 +14,11 @@ account, a local web UI, and an MCP server so an AI agent can drive it.
 - **[netdiag](https://github.com/donaldsteele/netdiag)**: tells you what is on a network and what
   is wrong with it in about ten seconds, covering live devices, printers (toner, paper, alerts),
   web interfaces, and gateway, DHCP and DNS health.
+  ([site](https://donaldsteele.github.io/netdiag/))
 - **[bubbles](https://github.com/donaldsteele/bubbles)**: self-hosted chat for a local network,
   with channels, DMs, files, and alerts posted by tools like netdiag. Everything runs over HTTPS
   with its own certificate authority.
+  ([site](https://donaldsteele.github.io/bubbles/))
 - **[howdah](https://github.com/howdah/howdah)**: an open-source firewall that loads into PHP
   itself and blocks abusive upload and input floods before they exhaust memory, including on
   end-of-life PHP versions that won't get the official fix. Written in Rust and C.
